@@ -76,7 +76,7 @@ const Auth = () => {
               </label>
             )           
           }
-          <button type='submit' className='auth-btn' onClick={handleSubmit}>{ isSignup ? 'Sign up' : 'Log in' }</button> 
+          <button type='submit' className='auth-btn'>{ isSignup ? 'Sign up' : 'Log in' }</button> 
           {
             isSignup  && (
               <p style={{ fontSize:"13px"}}>
