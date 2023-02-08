@@ -97,12 +97,16 @@
 } */
 
 @media (max-width: 576px) {
-    .mid-nav-item {
+    .navbar form  {
+        display: none;
+    }
+    .nav-btn {
         display: none;
     }
 }
 @media (max-width: 768px) {
-    .mid-nav-item {
+    
+    .nav-btn {
         display: none;
     }
 }

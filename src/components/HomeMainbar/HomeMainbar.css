@@ -108,20 +108,22 @@
 
 @media (min-width: 375px) {
     .main-bar-header h1, .main-bar-header button {
-        font-size: 13px;
+        font-size: 17px;
     }
 }
 
 @media (min-width: 576px) {
     .main-bar-header h1, .main-bar-header button {
         font-size: 20px;
+        justify-content: space-evenly;
     }
 }
 
 @media (max-width: 576px) {
-    .display-votes-ans {
+    /* .display-votes-ans {
         display: none;
-    }
+    } */
+    
 }
 
 @media (max-width: 768px) {
@@ -130,6 +132,9 @@
     }
     .main-bar-header {
         margin-top:  15px;
+    }
+    .display-question-container {
+        width: auto;
     }
 }
 
