@@ -43,3 +43,33 @@
     background-color: rgb(225, 225, 225);
     border-right: solid 3px #ef8236;
 }
+
+/* @media screen and (max-width: 600px) {
+    
+    .left-sidebar{
+        width: 110px;
+        background-color: #b6afaf;
+    }
+    
+    .home-container-2 {
+        width: auto;
+    }
+} */
+
+@media (max-width: 576px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 1024px) {
+    .left-sidebar {
+        width: 140px;
+    }
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 1400px) {
+    
+}

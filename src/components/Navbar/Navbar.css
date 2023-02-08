@@ -71,11 +71,46 @@
     padding: 7px 13px;
     border: solid 1px blue;
     border-radius: 3px;
-    background-color: #e7f8fe;
+    background-color: #81c2da;
     cursor: pointer;
 
 }
 
 .nav-links:hover{
     background: #d3e4eb;
+}
+
+/* @media screen and (max-width: 600px) {
+    
+    .navbar form{
+        display: none;
+        
+    }
+
+    .navbar form input{
+        width: 50px;
+    }
+        
+    .nav-btn {
+        display: none;
+    }
+} */
+
+@media (max-width: 576px) {
+    .mid-nav-item {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .mid-nav-item {
+        display: none;
+    }
+}
+@media (max-width: 1200px) {
+    .navbar form input {
+        min-width: 80%;
+    }
+}
+@media (max-width: 1400px) {
+
 }
